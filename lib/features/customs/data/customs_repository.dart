@@ -9,6 +9,7 @@ import '../../accounting/domain/account.dart';
 import '../domain/customs_record.dart';
 import '../domain/payment_transaction.dart';
 
+// كيفك يا علي
 class CustomsRepository {
   CustomsRepository({
     AppDatabase? appDatabase,
@@ -1787,7 +1788,6 @@ class AccountContact {
     required this.createdAt,
     required this.updatedAt,
   });
-
   final String id;
   final String accountType;
   final String accountName;
